@@ -1,0 +1,103 @@
+/* google work sans font starts here */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* google work sans font ends here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden !important;
+  background-color: #e5e5e5;
+  font-family: "Work Sans", sans-serif;
+}
+
+.herosection {
+  background-color: #fff7f4;
+  height: 100vh;
+}
+
+.nav-item {
+  color: #373737;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.main-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 123.6%;
+}
+
+.orange-text {
+  color: #ff5300;
+}
+
+.secondary-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #7b7b7b;
+}
+
+.responsive-image {
+  width: 100%;
+}
+
+.btn {
+  background: #ff5300;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.btn-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  color: #ffffff;
+}
+
+.btn:hover {
+  filter: brightness(90%);
+}
+
+.btn:active {
+  transform: translate(0, 0.3em);
+  /* background-color: rgba(166, 245, 170, 0.452); */
+}
+
+.row {
+  align-items: center;
+}
+
+.pt-10 {
+  padding-top: 10%;
+}
+/* mobile view css  */
+@media (max-width: 576px) {
+  .main-text {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .secondary-text {
+    font-size: 1.5em;
+    text-align: left;
+  }
+  br {
+    display: none;
+  }
+  .mobile-btn {
+    text-align: center;
+    margin: 5% 0;
+  }
+}
